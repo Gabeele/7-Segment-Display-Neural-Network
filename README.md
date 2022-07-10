@@ -1,8 +1,5 @@
 # 7-Segment-Display-Neural-Network
-Projected base around a LinkedIn Learning course which goes into depth on Neural Networks (NN). This project uses a NN to classify a 7 segment display input and outputs a perdicted result. Written in C++, the NN doesn't use any outside libraries or frameworks outside of STD. The GUI is buillt using QT. / 
-# 7-Segment-Display-Neural-Network
 Projected base around a LinkedIn Learning course which goes into depth on Neural Networks (NN). This project uses a NN to classify a 7 segment display input and outputs a perdicted result. Written in C++, the NN doesn't use any outside libraries or frameworks outside of STD. The GUI is buillt using QT.
-
 
 ![Banner](https://user-images.githubusercontent.com/59030389/178107541-488dc55c-128a-41c5-a55a-09c29b755e57.jpeg)
 
