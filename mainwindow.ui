@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1225</width>
+    <height>815</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1225</width>
+    <height>815</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1225</width>
+    <height>815</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>WaitCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>7 Segment Display Neural Network</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../../../Downloads/7seg1-471214991.jpg</normaloff>../../../../../Downloads/7seg1-471214991.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1225</width>
+     <height>815</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1225</width>
+     <height>815</height>
+    </size>
+   </property>
+   <widget class="QSlider" name="slider_6">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>200</y>
+      <width>16</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::groove:vertical {
+    width: 16px;
+    border-radius:8px;
+    background: rgba(255, 0, 0, 10);
+    margin: 0px;
+}
+
+QSlider::handle:vertical {
+    background: rgb(255, 255, 255);
+   width: 11px;
+    height: 11px;
+    margin: 1px 2px ;
+    border-radius:6px;
+    border: 1px solid rgb(120, 120, 120);
+}</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_2">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>200</y>
+      <width>16</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::groove:vertical {
+    width: 16px;
+    border-radius:8px;
+    background: rgba(255, 0, 0, 10);
+    margin: 0px;
+}
+
+QSlider::handle:vertical {
+    background: rgb(255, 255, 255);
+   width: 11px;
+    height: 11px;
+    margin: 1px 2px ;
+    border-radius:6px;
+    border: 1px solid rgb(120, 120, 120);
+}</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_5">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>430</y>
+      <width>16</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::groove:vertical {
+    width: 16px;
+    border-radius:8px;
+    background: rgba(255, 0, 0, 10);
+    margin: 0px;
+}
+
+QSlider::handle:vertical {
+    background: rgb(255, 255, 255);
+   width: 11px;
+    height: 11px;
+    margin: 1px 2px ;
+    border-radius:6px;
+    border: 1px solid rgb(120, 120, 120);
+}</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>430</y>
+      <width>16</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::groove:vertical {
+    width: 16px;
+    border-radius:8px;
+    background: rgba(255, 0, 0, 10);
+    margin: 0px;
+}
+
+QSlider::handle:vertical {
+    background: rgb(255, 255, 255);
+   width: 11px;
+    height: 11px;
+    margin: 1px 2px ;
+    border-radius:6px;
+    border: 1px solid rgb(120, 120, 120);
+}</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>610</y>
+      <width>160</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::groove:horizontal {
+    height: 16px;
+    border-radius:8px;
+    background: rgba(255, 0, 0, 10);
+    margin: 0px;
+}
+
+QSlider::handle:horizontal {
+    background: rgb(255, 255, 255);
+   width: 11px;
+    height: 11px;
+    margin: 1px 2px ;
+    border-radius:6px;
+    border: 1px solid rgb(120, 120, 120);
+}</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_7">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>390</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::groove:horizontal {
+    height: 16px;
+    border-radius:8px;
+    background: rgba(255, 0, 0, 10);
+    margin: 0px;
+}
+
+QSlider::handle:horizontal {
+    background: rgb(255, 255, 255);
+   width: 11px;
+    height: 11px;
+    margin: 1px 2px ;
+    border-radius:6px;
+    border: 1px solid rgb(120, 120, 120);
+}</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_1">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>170</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::groove:horizontal {
+    height: 16px;
+    border-radius:8px;
+    background: rgba(255, 0, 0, 10);
+    margin: 0px;
+}
+
+QSlider::handle:horizontal {
+    background: rgb(255, 255, 255);
+   width: 11px;
+    height: 11px;
+    margin: 1px 2px ;
+    border-radius:6px;
+    border: 1px solid rgb(120, 120, 120);
+}</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="resetBtn">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>700</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Reset</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="learnBtn">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>210</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="toolTipDuration">
+     <number>6</number>
+    </property>
+    <property name="text">
+     <string>Learn</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="info1Label">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>150</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;An &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; font-style:italic;&quot;&gt;Epoch&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; machine learning term that refers to the amount of passes the machine learning algorithm has made through the entire training dataset. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Recommend starting at 1000 epochs for this dataset. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string>Epoch to Train:</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="epochSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>200</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>1000000000</number>
+    </property>
+    <property name="singleStep">
+     <number>10</number>
+    </property>
+    <property name="value">
+     <number>1000</number>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>450</y>
+      <width>160</width>
+      <height>256</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QLabel" name="outputLabel">
+     <property name="font">
+      <font>
+       <pointsize>100</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>---</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="RawOutputLabel_2">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Perdicted Output</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>790</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hover over terms to reveal more infromation. </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>1181</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>This application is an example of neural networks using a 7 segment display to find patterns with brightness levels on each segment piece. Move the sliders on the segment display to adjust the brightness. The pattern is ran though the neural network and perdicts the digit. For example, the number 2 may have a segment that is 100% brightness and another than is 65% brightness. Another example is 0 on a segmented display, light may leak into the middle segment creating an 8. This NN is trained to look for patterns and simularities in the numbers.</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter_2">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>260</y>
+      <width>381</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QLabel" name="RawOutputLabel">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The calculated confidence in the result by the neural network. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string>Certainty: ---</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="MSElabel">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; font-style:italic;&quot;&gt;Mean Squared Error &lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;is a error measurement used for performance of the neural network. &lt;/span&gt;&lt;a name=&quot;ember1451&quot;/&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;T&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;he error is calculated as the sum &lt;/span&gt;&lt;a name=&quot;ember1452&quot;/&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;o&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;f the squared output errors &lt;/span&gt;&lt;a name=&quot;ember1453&quot;/&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;f&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;or all neurons in the output layer, &lt;/span&gt;&lt;a name=&quot;ember1454&quot;/&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;ll of this divided by n, &lt;/span&gt;&lt;a name=&quot;ember1455&quot;/&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;he number of neurons in the output layer. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string>MSE:  ---</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="EpochsTrainedLabel">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Epochs Trained: ---</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionRepo">
+   <property name="text">
+    <string>Repo</string>
+   </property>
+  </action>
+  <action name="actionAbout_2">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>slider_5</tabstop>
+  <tabstop>resetBtn</tabstop>
+  <tabstop>epochSpinBox</tabstop>
+  <tabstop>learnBtn</tabstop>
+  <tabstop>slider_6</tabstop>
+  <tabstop>slider_1</tabstop>
+  <tabstop>slider_3</tabstop>
+  <tabstop>slider_7</tabstop>
+  <tabstop>slider_4</tabstop>
+  <tabstop>slider_2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
