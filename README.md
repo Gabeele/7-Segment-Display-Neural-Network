@@ -22,8 +22,10 @@ Projected base around a LinkedIn Learning course which goes into depth on Neural
 ### Installing
 
 ### Executing program
+![NN gif](https://user-images.githubusercontent.com/59030389/178158415-37a08056-642f-4fdd-a50a-174dff3d90bf.gif)
 
 ## Authors
+
 
 Contributors names and contact info
 
